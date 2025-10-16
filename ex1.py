@@ -99,4 +99,4 @@ centimetros = metros * 100
 milimetros = metros * 1000
 km = metros / 1000
 
-print(f"{metros} metros equivalem a {centimetros}, {milimetros} milimetros e {km} km")
+print(f"{metros} metros equivalem a {centimetros} centimetros, {milimetros} milimetros e {km} km")
