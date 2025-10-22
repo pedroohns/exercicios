@@ -94,3 +94,37 @@ let milimetros = metros * 1000;
 let km = metros / 1000;
 
 console.log(`${metros} metros equivalem a ${centimetros} centimetros, ${milimetros} milimetros e ${km}km.`);
+
+//exercicio converter celsius para fahrenheit
+//formula: fahrenheit = celcius * 1.8 + 32
+
+let celsius = 20;
+fahrenheit = celsius * 1.8 + 32;
+
+console.log(`a temperatura em celsius é ${celsius}, e em fahrenheit é ${fahrenheit}.`);
+
+//exercicio media de tres notas (aprovado e reprovado)
+
+const nota1 = 8;
+const nota2 = 10;
+const nota3 = 7;
+
+media = (nota1 + nota2 + nota3) / 3;
+
+if (media >= 7) {
+    console.log("Aprovado.");
+}
+else if (media >= 5 && media < 6.9) {
+    console.log("Recuperação");
+}
+else if (media < 5) {
+    console.log("Reprovado.");
+}
+
+//exercicio desconto em produtos
+
+let produto = 100;
+desconto = produto * 20 / 100;
+valorFinal = produto - desconto;
+
+console.log(`o produto originalmente custa ${produto} reais, com o desconto de ${desconto} reais, ele passa a custar ${valorFinal} reais.`);

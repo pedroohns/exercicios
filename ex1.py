@@ -100,3 +100,35 @@ milimetros = metros * 1000
 km = metros / 1000
 
 print(f"{metros} metros equivalem a {centimetros} centimetros, {milimetros} milimetros e {km} km")
+
+#exercicio converter celsius para fahrenheit
+celcius = 0
+
+fahrenheit = celcius * 1.8 + 32
+
+print(f"a temperatura em celsius é {celcius} e em fahrenheit é {fahrenheit}")
+
+#exercicio media de tres notas (aprovado e reprovado)
+
+nota1 = 9.2
+nota2 = 7.6
+nota3 = 8.9
+
+media = (nota1 + nota2 + nota3) / 3
+
+if media >= 7:
+ print("Aprovado")
+
+elif media >= 5 and media <= 6.9:
+ print("Recuperação")
+
+elif media < 5:
+ print("Reprovado")
+
+#exercicio desconto em produto
+
+produto = 100
+desconto = produto * 20 / 100 #desconto de 20%
+valor_final = produto - desconto
+
+print(f"o produto custa {produto} reais, com o desconto aplicado, passa a custar {valor_final} reais.")
