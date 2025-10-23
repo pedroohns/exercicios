@@ -189,7 +189,7 @@ if idade > 0 and idade <= 11:
 elif idade >= 12 and idade <= 17:
     print("Você é adolescente.")
     
-elif idade >= 18 and idade <= 58:
+elif idade >= 18 and idade <= 59:
     print("Você é adulto.")
     
 elif idade > 60:

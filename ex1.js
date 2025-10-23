@@ -139,3 +139,67 @@ if (numero1 % numero2 === 0 || numero2 % numero1 === 0) {
 }
 else 
     console.log("nao sao multiplos")
+
+//exercicio calcular idades
+
+let idade2 = 15;
+
+if (idade2 > 0 && idade2 <= 11) {
+    console.log("Você é criança");
+}
+else if (idade2 >= 12 && idade2 <= 17) {
+    console.log("Você é adolescente");
+}
+else if (idade2 >= 18 && idade2 <= 59) {
+    console.log("Você é adulto");
+}
+else if (idade2 > 60) {
+    console.log("Você é idoso");
+}
+
+//exercicio numero negativo positivo ou zero
+
+let num = 0;
+
+if (num > 0) {
+    console.log("positivo");
+}
+else if (num < 0) {
+    console.log("negativo");
+}
+else if (num === 0) {
+    console.log("zero");
+}
+
+//exercicio maior de tres numeros
+
+let num3 = 10;
+let num4 = 20;
+let num5 = 30;
+
+if (num3 > num4 && num3 > num5) {
+    console.log("o primeiro numero é maior");
+}
+else if (num4 > num3 && num4 > num5) {
+    console.log("o segundo numero é maior");
+}
+else {
+    console.log("o terceiro numero é maior");
+}
+
+//exercicio verificar ano bissexto
+
+let ano = 2024;
+
+if (ano % 400 === 0) {
+    console.log("bissexto");
+}
+else if (ano % 100 === 0) {
+    console.log("nao bissexto");
+}
+else if (ano % 4 === 0) {
+    console.log("bissexto");
+}
+else {
+    console.log("nao bissexto");
+}
