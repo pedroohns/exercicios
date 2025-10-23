@@ -132,3 +132,109 @@ desconto = produto * 20 / 100 #desconto de 20%
 valor_final = produto - desconto
 
 print(f"o produto custa {produto} reais, com o desconto aplicado, passa a custar {valor_final} reais.")
+
+##exercicio verificar multiplos
+
+numero1 = 5
+numero2 = 10
+
+if numero1 % numero2 == 0 or numero2 % numero1 == 0:
+    print("multiplos.")
+
+else:
+    print("nao sao multiplos.")
+
+##exercicio calculadora com input e operação
+
+numero1 = int(input("Digite o primeiro numero: "))
+numero2 = int(input("Digite o segundo numero: "))
+
+operacao = input("Digite a operação: ")
+
+if operacao == "+":
+    print("A soma entre os dois numeros é: ", numero1 + numero2)
+
+elif operacao == "-":
+    print("A subtração entre os dois numeros é: ", numero1 - numero2)
+
+elif operacao == "*":
+    print("a multiplicação entre os dois numeros é: ", numero1 * numero2)
+
+elif operacao == "/" and numero2 != 0:
+    print("a divisão entre os dois numeros é: ", numero1 / numero2)
+
+else:
+    print("ERRO")
+
+##exercicio login simples (usuario e senha)
+
+usuario = input("Digite seu user: ")
+senha = input("Digite sua senha: ")
+usuario_correto = "admin"
+senha_correta = "1234"
+
+if usuario != usuario_correto or senha != senha_correta:
+    print("ACESSO NEGADO")
+    
+else:
+    print("ACESSO PERMITIDO")
+
+##exercicio calcular idades
+
+idade = 23
+
+if idade > 0 and idade <= 11:
+    print("Você é criança.")
+    
+elif idade >= 12 and idade <= 17:
+    print("Você é adolescente.")
+    
+elif idade >= 18 and idade <= 58:
+    print("Você é adulto.")
+    
+elif idade > 60:
+    print("Você é idoso.")
+
+##exercicio numero negativo, positivo ou zero
+
+num = 0
+
+if num > 0:
+    print("Numero positivo")
+    
+elif num < 0:
+    print("Numero negativo")
+    
+elif num == 0:
+    print("ZERO")
+
+##exercicio maior de tres numeros 
+
+num1 = 10
+num2 = 20
+num3 = 30
+
+if num1 > num2 and num1 > num3:
+    print("o primeiro numero é maior")
+    
+elif num2 > num1 and num2 > num3:
+    print("o segundo numero é maior")
+    
+else:
+    print("o terceiro numero é maior")
+
+##exercicio verificar ano bissexto
+
+ano = 2024
+
+if ano % 400 == 0:
+    print("bissexto")
+    
+elif ano % 100 == 0:
+    print("nao bissexto")
+    
+elif ano % 4 == 0:
+    print("bissexto")
+    
+else:
+    print("nao bissexto")
