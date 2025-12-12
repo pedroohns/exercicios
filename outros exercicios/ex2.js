@@ -123,4 +123,21 @@ const nomes2 = ["Ana Souza", "Carlos Alberto", "Pedro Henrique"];
 const primeiroNome = nomes2.map(nomes2 => nomes2.split(' ')[0]);
 console.log(primeiroNome);
 
+//filtrar usuarios com saldo positivo e somar o saldo total
+
+const contas = [
+  { nome: "Ana", saldo: 100 },
+  { nome: "Carlos", saldo: -20 },
+  { nome: "Maria", saldo: 300 },
+  { nome: "João", saldo: -10 }
+];
+
+const positivos = contas.filter(contas => contas.saldo > 0);
+console.log(positivos);
+
+const soma4 = positivos.reduce((acumulador, positivos) => {
+    return acumulador + positivos.saldo
+}, 0);
+console.log(soma4);
+
 //---------------------------------------------------------------------------------------------------------------------//
