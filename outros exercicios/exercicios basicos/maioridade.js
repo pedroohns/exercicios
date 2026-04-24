@@ -1,4 +1,4 @@
-let idade1 = 20;
+let idade = 20;
 
 if (idade < 18) {
     console.log("Menor de idade.")

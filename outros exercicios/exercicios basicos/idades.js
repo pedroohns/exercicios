@@ -1,14 +1,14 @@
-let idade2 = 15;
+let idade = 15;
 
-if (idade2 > 0 && idade2 <= 11) {
+if (idade > 0 && idade <= 11) {
     console.log("Você é criança");
 }
-else if (idade2 >= 12 && idade2 <= 17) {
+else if (idade >= 12 && idade <= 17) {
     console.log("Você é adolescente");
 }
-else if (idade2 >= 18 && idade2 <= 59) {
+else if (idade >= 18 && idade <= 59) {
     console.log("Você é adulto");
 }
-else if (idade2 > 60) {
+else if (idade > 60) {
     console.log("Você é idoso");
 }

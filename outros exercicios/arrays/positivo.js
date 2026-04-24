@@ -8,7 +8,7 @@ const contas = [
 const positivos = contas.filter(contas => contas.saldo > 0);
 console.log(positivos);
 
-const soma4 = positivos.reduce((acumulador, positivos) => {
+const soma = positivos.reduce((acumulador, positivos) => {
     return acumulador + positivos.saldo
 }, 0);
-console.log(soma4);
+console.log(soma);

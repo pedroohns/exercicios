@@ -1,3 +1,3 @@
-const nomes1 = ["Amanda", "Pedro", "Maria", "Ana", "Aline", "Lucas"];
-const nomesComA = nomes1.filter(nomes1 => nomes1.startsWith("A"));
+const nomes = ["Amanda", "Pedro", "Maria", "Ana", "Aline", "Lucas"];
+const nomesComA = nomes.filter(nomes => nomes.startsWith("A"));
 console.log(nomesComA);
