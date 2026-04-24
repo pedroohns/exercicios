@@ -1,0 +1,11 @@
+let idade1 = 20;
+
+if (idade < 18) {
+    console.log("Menor de idade.")
+} 
+else if (idade === 18) {
+    console.log("Possui 18 anos.")
+} 
+else {
+    console.log("Maior de idade.")
+}
