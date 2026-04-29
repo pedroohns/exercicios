@@ -12,6 +12,7 @@ botao.addEventListener('click', () => {
 
     if (Number.isNaN(nota1) || Number.isNaN(nota2) || Number.isNaN(nota3)) {
         situacao.textContent = "Digite notas válidas, apenas.";
+        situacao.style.color = "red";
         return;
     }
 
@@ -19,9 +20,12 @@ botao.addEventListener('click', () => {
     resultado.textContent = `sua media é ${media.toFixed(1)}`;
     if (media >= 7) {
         situacao.textContent = "parabéns, voce esta APROVADO!";
+        situacao.style.color = "green";
     } else if (media >= 5 && media < 7) {
         situacao.textContent = "voce esta de RECUPERAÇAO";
+        situacao.style.color = "orange";
     } else if (media < 5) {
         situacao.textContent = "voce esta REPROVADO";
+        situacao.style.color = "red";
     }
 });
